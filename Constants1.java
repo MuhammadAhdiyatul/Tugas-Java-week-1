@@ -1,4 +1,4 @@
-public class Constants {
+public class Constants1 {
     public static void main(String[] aargs) {
         final double CM_PER_INCH = 2.54; double paperWidth  = 8.5;
         double paperHeight = 11;
