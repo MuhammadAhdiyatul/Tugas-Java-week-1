@@ -1,9 +1,12 @@
-class ConvertDataType {
-static short methodOne(long l) {
-int i = (int) l; return (short)i;
-}
+class OperatorChallenge {
 public static void main(String[] args) {
-double d = 10.25; float f = (float) d;
-byte b = (byte) methodOne((long) f); System.out.println(b);
+int a = 5;
+int b = 10;
+
+boolean result = (++a * 2 > b) && (b++ % 3 == 1);
+
+System.out.println(" Hasil Boolean: " + result);
+System.out.println(" Nilai a: " + a);
+System.out.println(" Nilai b: " + b);
 }
 }
